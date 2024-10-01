@@ -1,0 +1,28 @@
+{
+	"nodes":[
+		{"id":"96fe426133143b26","type":"group","x":-394,"y":-261,"width":693,"height":530,"label":"Dropwise NaOH"},
+		{"id":"d3265e746e8b89aa","type":"group","x":-620,"y":-180,"width":426,"height":371,"label":"Excess NaOH "},
+		{"id":"733989157599ad81","type":"text","text":"**Results**","x":-100,"y":-23,"width":120,"height":60},
+		{"id":"0652f8f1aff83e6b","type":"text","text":"Iron (II)\nFe<sup>2+</sup><sub> (aq)</sub>\nGreen","x":-110,"y":-241,"width":140,"height":109,"color":"4"},
+		{"id":"540adc7c3a92c5b1","type":"text","text":"Remains","x":-596,"y":-135,"width":129,"height":60},
+		{"id":"cf237aac293e2700","type":"text","text":"Alumiunium\nAl<sup>3+</sup><sub> (aq)</sub>\nWhite","x":-374,"y":62,"width":160,"height":109,"color":"#ffffff"},
+		{"id":"1105b4879b8c22a0","type":"text","text":"Calcium\nCa<sup>2+</sup><sub> (aq)</sub>\nWhite","x":-364,"y":-160,"width":140,"height":109,"color":"#ffffff"},
+		{"id":"7a8de2d25b8c7ba9","type":"text","text":"**X<sup>n+</sup> <sub> (aq)</sub> + n(OH)<sub> (aq)</sub> ----> X(OH)<sub>n</sub><sub> (s)</sub>**","x":-52,"y":-340,"width":343,"height":60},
+		{"id":"99252082f760ca88","type":"text","text":"Dissolves","x":-600,"y":87,"width":138,"height":60},
+		{"id":"566d2db2579dfba7","type":"text","text":"Copper\nCu<sup>2+</sup><sub> (aq)</sub>\nBlue","x":-111,"y":140,"width":142,"height":109,"color":"5"},
+		{"id":"d62f0d31e01650c5","type":"text","text":"Iron (III)\nFe<sup>3+</sup><sub> (aq)</sub>\nOrange","x":119,"y":63,"width":160,"height":108,"color":"2"},
+		{"id":"c99cb2cc351dea98","type":"text","text":"Ammonium\nNH<sub>4</sub><sup>+</sup><sub> (aq)</sub>\nColourless","x":119,"y":-184,"width":160,"height":109},
+		{"id":"4ab01b448de4b972","type":"text","text":"Ammonia\nNH<sub>3 (g)</sub>\nDamp red litmus paper turns blue","x":420,"y":-184,"width":320,"height":109}
+	],
+	"edges":[
+		{"id":"3368f31e0895cbf6","fromNode":"733989157599ad81","fromSide":"left","toNode":"1105b4879b8c22a0","toSide":"right","color":"#ffffff"},
+		{"id":"48f50a4c491b874d","fromNode":"733989157599ad81","fromSide":"top","toNode":"0652f8f1aff83e6b","toSide":"bottom","color":"#588851"},
+		{"id":"3ee6e9f64450fae3","fromNode":"733989157599ad81","fromSide":"right","toNode":"d62f0d31e01650c5","toSide":"left","color":"#9d7740"},
+		{"id":"ef46aa80c41f1138","fromNode":"733989157599ad81","fromSide":"left","toNode":"cf237aac293e2700","toSide":"right","color":"#ffffff"},
+		{"id":"cdcdd8eb185fae6c","fromNode":"1105b4879b8c22a0","fromSide":"left","toNode":"540adc7c3a92c5b1","toSide":"right"},
+		{"id":"361d517b622904c8","fromNode":"cf237aac293e2700","fromSide":"left","toNode":"99252082f760ca88","toSide":"right"},
+		{"id":"fab639d2e5f0ef2c","fromNode":"733989157599ad81","fromSide":"bottom","toNode":"566d2db2579dfba7","toSide":"top","color":"#6ea1a0"},
+		{"id":"a4c2c1542874cb54","fromNode":"733989157599ad81","fromSide":"right","toNode":"c99cb2cc351dea98","toSide":"left"},
+		{"id":"4f3b38bc211bd7dc","fromNode":"c99cb2cc351dea98","fromSide":"right","toNode":"4ab01b448de4b972","toSide":"left"}
+	]
+}

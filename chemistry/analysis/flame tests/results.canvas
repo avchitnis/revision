@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"1aec0f0f6c0449b6","type":"text","text":"Results","x":-85,"y":-240,"width":115,"height":60},
+		{"id":"d1f7e118c2895d50","type":"text","text":"Magnesium\nMg<sup>2+</sup><sub> (aq)</sub>\nColourless","x":-359,"y":-60,"width":156,"height":109},
+		{"id":"a66196881cd599b0","type":"text","text":"Copper\nCu<sup>2+</sup><sub> (aq)</sub>\nBlue - green","x":-109,"y":-60,"width":164,"height":109,"color":"#0d98ba"},
+		{"id":"dc148bf31ad2d8a8","type":"text","text":"Sodium\nNa<sup>+</sup><sub> (aq)</sub>\nYellow","x":-359,"y":-264,"width":125,"height":109,"color":"#ffff00"},
+		{"id":"bd52494771e19288","type":"text","text":"Lithium\nLi<sup>+</sup><sub> (aq)</sub>\nCrimson red","x":-359,"y":-440,"width":155,"height":109,"color":"#990000"},
+		{"id":"040a360c854d9ca2","type":"text","text":"Calcium\nCa<sup>2+</sup><sub> (aq)</sub>\nBrick red","x":153,"y":-60,"width":140,"height":109,"color":"#cb4154"},
+		{"id":"8d2e7e748e535420","type":"text","text":"Strontium\nSr<sup>2+</sup><sub> (aq)</sub>\nScarlet","x":158,"y":-264,"width":135,"height":109,"color":"#ff2400"},
+		{"id":"3559a9f98a287d5e","type":"text","text":"Barium \nBa<sup>2+</sup><sub> (aq)</sub>\nApple green","x":138,"y":-440,"width":155,"height":109,"color":"#8db600"},
+		{"id":"920ebba275decf02","type":"text","text":"Potassium \nK<sup>+</sup><sub> (aq)</sub>\nLilac","x":-102,"y":-440,"width":150,"height":109,"color":"#c8a2c8"}
+	],
+	"edges":[
+		{"id":"5cedbe4eba721617","fromNode":"1aec0f0f6c0449b6","fromSide":"left","toNode":"bd52494771e19288","toSide":"right","color":"#990000"},
+		{"id":"27aefcd8d8626ace","fromNode":"1aec0f0f6c0449b6","fromSide":"top","toNode":"920ebba275decf02","toSide":"bottom","color":"#c8a2c8"},
+		{"id":"7f7e4986392045fb","fromNode":"1aec0f0f6c0449b6","fromSide":"right","toNode":"3559a9f98a287d5e","toSide":"left","color":"#8db600"},
+		{"id":"b98bb73e6ea0e0f4","fromNode":"1aec0f0f6c0449b6","fromSide":"right","toNode":"8d2e7e748e535420","toSide":"left","color":"#ff2400"},
+		{"id":"ee1ec36c7fe497cb","fromNode":"1aec0f0f6c0449b6","fromSide":"right","toNode":"040a360c854d9ca2","toSide":"left","color":"#cb4154"},
+		{"id":"4d5ef8c0d8202889","fromNode":"1aec0f0f6c0449b6","fromSide":"bottom","toNode":"a66196881cd599b0","toSide":"top","color":"#0d98ba"},
+		{"id":"2c73cb2acda7d91b","fromNode":"1aec0f0f6c0449b6","fromSide":"left","toNode":"d1f7e118c2895d50","toSide":"right"},
+		{"id":"e8dc85520952ac23","fromNode":"1aec0f0f6c0449b6","fromSide":"left","toNode":"dc148bf31ad2d8a8","toSide":"right","color":"#ffff00"}
+	]
+}
